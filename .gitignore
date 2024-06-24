@@ -1,48 +1,75 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# Ignore macOS system files
+.DS_Store
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+# Ignore XAMPP files (if any)
+htdocs
+xamppfiles
 
-# Configuration
-wp-config.php
-
-# Example themes
-/wp-content/themes/twenty*/
-
-# Example plugin
-/wp-content/plugins/hello.php
-
-# Uploads
-/wp-content/uploads/
-
-# Log files
+# Ignore log files and databases
 *.log
+*.sql
+*.sqlite
 
-# htaccess
-/.htaccess
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
+# Ignore operating system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# Ignore node_modules (if using Node.js for frontend dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Ignore PHPStorm project files
+/.idea
+/.vscode
+/.phpstorm.meta.php
+
+# Ignore Composer dependencies (if using Composer for PHP dependencies)
+vendor/
+composer.lock
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore compiled PHP extensions (if any)
+*.so
+*.dll
+
+# Ignore minified files (if generated dynamically)
+*.min.js
+*.min.css
+
+# Ignore cache files
+cache/
+tmp/
+temp/
+
+# Ignore built assets (if any)
+dist/
+build/
+
+# Ignore environmental configuration files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Ignore PHPUnit test results
+.phpunit.result.cache
+
+# Ignore configuration files that contain sensitive information
+config.php
