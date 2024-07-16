@@ -5,7 +5,9 @@ echo ----------
 echo Copying PHP file 
 
 ### Copy website
-cp index.php ~/data/index.php
+cp -r /JsonFiles/ ~/data/JsonFiles/
+cp -r /GameBuild/ ~/data/GameBuild/
+#cp index.php ~/data/index.php
 
 #cp -RT index.php ~/data/index.php
 

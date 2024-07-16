@@ -1,0 +1,84 @@
+{
+    "ChoiceQuestions": [
+        {
+            "ID": 2,
+            "QuestionText": "What is your choice?",
+            "Mandatory": false,
+            "FollowUpQuestions": [
+                0,
+                1
+            ],
+            "Type": 2,
+            "Minigame": 0,
+            "AnswerChoices": [
+                "Cake",
+                "Cookies"
+            ],
+            "MultipleAnswersAllowed": false
+        },
+        {
+            "ID": 5,
+            "QuestionText": "What is your choice2?",
+            "Mandatory": false,
+            "FollowUpQuestions": [
+                0,
+                1
+            ],
+            "Type": 2,
+            "Minigame": 0,
+            "AnswerChoices": [
+                "Cake2",
+                "Cookies2"
+            ],
+            "MultipleAnswersAllowed": false
+        }
+    ],
+    "RangeQuestions": [
+        {
+            "ID": 0,
+            "QuestionText": "What is a rangeQ?",
+            "Mandatory": false,
+            "FollowUpQuestions": [],
+            "Type": 1,
+            "Minigame": 6,
+            "MinValue": 0.0,
+            "MaxValue": 10.0
+        },
+        {
+            "ID": 3,
+            "QuestionText": "What is a rangeQ2?",
+            "Mandatory": false,
+            "FollowUpQuestions": [],
+            "Type": 1,
+            "Minigame": 6,
+            "MinValue": 3.0,
+            "MaxValue": 12.0
+        }
+    ],
+    "YesNoQuestions": [
+        {
+            "ID": 1,
+            "QuestionText": "Yay or nay?",
+            "Mandatory": false,
+            "FollowUpQuestions": [],
+            "Type": 0,
+            "Minigame": 4,
+            "PossibleAnswers": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "ID": 4,
+            "QuestionText": "Yay or nay2?",
+            "Mandatory": false,
+            "FollowUpQuestions": [],
+            "Type": 0,
+            "Minigame": 5,
+            "PossibleAnswers": [
+                "Yes",
+                "No"
+            ]
+        }
+    ]
+}
