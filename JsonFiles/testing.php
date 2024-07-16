@@ -1,6 +1,6 @@
 <?php
 // Path to the JSON file
-$file_path = '~/data/JsonFiles/data.json';
+$file_path = 'data.json';
 
 // Read JSON file
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
